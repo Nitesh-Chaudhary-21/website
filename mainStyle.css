@@ -1,0 +1,372 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url('https://upload.wikimedia.org/wikipedia/commons/f/f6/Ktmcity4.jpg') no-repeat;
+	background-size: cover;
+}
+#wrapper{
+
+	width: 1200px;
+	position: relative;
+	min-height: 200px;
+	background: #eee;
+	margin:0 auto;
+}
+header{
+	position: relative;
+	min-height: 100px;
+	background: white;
+	
+	}
+	.headerBoxes{
+
+float: left;
+		width: 238px;
+		height: 100px;
+		margin: 0px 1px;
+		
+
+	}
+	.mainLogo{
+		height: 115px;
+		margin: 5px 47px;
+	}
+
+		.headerBoxes h4{
+			text-align: left;
+			margin-top: 20px;
+		}
+		.headerBoxes p{
+			text-align: left;
+			
+		}
+
+		.socialIcon{
+			width: 30px;
+			height:30px;
+			background: #1da1f2;
+			float: left;
+
+			margin: 1px;
+			margin-top: 20px;
+		}
+
+		.socialIcon img{
+		width: 100%;
+		}
+		
+		nav{
+			width: 100%;
+			min-height: 40px;
+			background: #5fb7fe;
+		}
+
+		nav ul{
+			float: right;
+			padding: 10px 0px 0px 0px;
+		}
+
+		nav ul li{
+			list-style-type: none;
+			float: left;
+
+		}
+
+		nav ul li a{
+			padding: 5px 20px;
+			color: #fff;
+			text-decoration: none;
+			
+		}
+		.btnCallBack{
+			width: 115px;
+			height: 24px;
+			background: orange;
+			position: relative;
+			color: #fff;
+			margin: 0px 20px 5px 0px;
+			border: none;
+			cursor: pointer;
+		}
+		#slider{
+			width: 100%;
+			min-height: 400px;
+			overflow: hidden;
+			position: relative;
+			background:url('https://www.climatelinks.org/sites/default/files/styles/hero/public/assets/images/2021-02/Mountain-communities-adapting-to-change-through-change-in-roof-structure_Nepal_1400x400_0.jpg?h=d1c1c936&itok=SUZFBY_V');
+			background-size: cover;
+		}
+		.sliderContent{
+			width: 100%;
+			height: 400px;
+			position: relative;
+			overflow: hidden;
+			background: rgba(0,0,0,0.7);
+		}
+		.sliderContentBox{
+
+			width: 50%;
+			height: 400px;
+			position: relative;
+			overflow: hidden;
+			float: left;
+			color: #fff;
+			font-family: Poppins light;
+			
+		}
+
+		.texts
+		{
+			position: relative;
+			padding: 70px 0px 0px 70px;
+		}
+
+		.texts h2
+		{
+			font-size:50px;
+			font-weight:bold;
+			line-height: 60px;
+		}
+
+		.texts p
+		{
+			font-size:20px;
+			font-weight:bold;
+			line-height: 40px;
+		}
+
+		.texts button
+		{
+			background: #086AD8;
+			padding: 0px 36px;
+			margin: 0px 15px;
+			margin-top: 10px;
+			border: none;
+			border-radius: 5px;
+			color: #fff;
+			cursor: pointer;
+			height: 54px;
+			transition: all 0.5s ease;
+		}
+
+		.texts button:hover
+		{
+		
+			margin-top: 5px;
+			
+		}
+		
+
+		.sliderContentBox form input[type="text"],.sliderContentBox form input[type="email"],.sliderContentBox form input[type="number"],.sliderContentBox form textarea{
+
+			display: block;
+			color: #086AD8;
+			margin: 10px auto;
+			border: 1px solid #086AD8;
+			width: 80%;
+			height: 30px;
+			text-indent: 15px;
+
+		}
+		.sliderContentBox form input{
+
+			border: 1px solid #086AD8;
+			width: 80%;             
+			height: 30px;
+		}
+		.formSubmit{
+
+			background: #086AD8;
+			display: block;
+			margin: 10px auto;
+		
+			border: none;
+			width: 80px !important;
+			border-radius: 5px;
+			color: #fff !important;
+			cursor: pointer;
+			height: 54px;
+			
+		}
+		.formContainer{
+ margin: 50px 70px;
+     padding: 20px;
+     background: #fff;
+     border-radius: 10px;
+
+		}
+		.sliderFormTitle{
+
+
+			position: relative;
+			text-align: center;
+			color: #4a90e2;
+			font-size: 20px;
+		}
+		#intro{
+			position: relative;
+			overflow: hidden;
+			min-height: 40px;
+			width: 100%;
+			font-family: Poppins light;
+			
+		}
+
+		#intro img{
+			float: left;
+			height: 400px;
+			margin: 20px;
+		}
+
+		#intro p{
+		
+			margin: 20px;
+		}
+		#content{
+			width: 100%;
+			position: relative;
+			min-height: 50px;
+			overflow: hidden;
+			padding: 100px 0px;
+			background: #e4dede;
+		}
+		.contentBox{
+			width: 350px;
+			min-height: 20px;
+			background: #fff;
+			float: left;
+			border-radius: 5px;
+			margin: 15px 25px;
+			position: relative;
+			box-shadow: 0px 0px 12px 0px #00000042;
+			overflow: hidden;
+			font-family:Poppins light;
+		}
+
+		.contentBox img{
+			height: 100px ;
+			display: block;
+			margin: 10px auto;
+		}
+
+		.contentBox h3{
+			text-align: center;
+			color: #4a90e2 ;
+			margin: 20px 0px;
+		}
+
+		.contentBox p{
+			text-align: center;
+			color: #111 ;
+			margin: 20px 0px;
+		}
+		.contentReadMore{
+
+			background: #086AD8;
+			display: block;
+			margin: 10px auto;
+		padding: 10px 20px;
+			border: none;
+			width: auto;
+			border-radius: 5px;
+			color: #fff !important;
+			cursor: pointer;
+			height: 34px;
+			
+		}
+
+		#testimonial{
+			width: 100%;
+			position: relative;
+			min-height: 50px;
+			overflow: hidden;
+			padding: 100px 0px;
+			background: #f59f8b85;
+		}
+	 .testimonialSingle{
+			width: 350px;
+			min-height: 20px;
+			background: #fff;
+			float: left;
+			border-radius: 5px;
+			margin: 15px 25px;
+			position: relative;
+			box-shadow: 0px 0px 12px 0px #00000042;
+			overflow: hidden;
+			font-family:Poppins light;
+		}
+		.testimonialSingle img{
+			width: 50px;
+			height: 50px;
+			background: #fff;
+			float: left;
+			border-radius: 50px;
+			margin: 15px 25px;
+			position: relative;
+		
+			
+		}
+
+		.testimonialSingle h4{
+			font-size: 15px;
+			margin: 20px 10px 10px 10px;
+		
+			
+		}
+
+		.testiName{
+			font-size: 13px;
+			
+		
+			
+		}
+		.testiContent{
+
+			background: #ead9d4;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 17px;
+    position: relative;
+	}
+
+		.testiArrow{
+width: 0px;
+    height: 0px;
+    left: 26px;
+    border-bottom: 21px solid #ead9d4;
+    border-right: 24px solid transparent;
+    border-left: 26px solid transparent;
+    position: absolute;
+		}
+		#testimonial h3{
+			text-align: center;
+		} 
+
+		#intro table{
+			width: 70%;
+			display: block;
+			margin: 20px auto;
+
+		}
+		#intro table thead{
+			 background: #086AD8;
+			 color: #fff;
+			 border:none !important;
+			
+		}
+
+			#intro table thead tr th{
+			
+			 border:none !important;
+			
+		}
+
+		#intro table tr td,#intro table tr th{
+			padding: 15px;
+			border:1px solid #000;
+			
+		}
